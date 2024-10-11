@@ -1,10 +1,10 @@
+import Link from "next/link";
 
 export const Navbar = () => {
     return (
-        <nav className = "bg-white px-6 shadow">
+        <nav className = "bg-white px-6 shadow mb-3">
             <div className = "flex h-16 justify-between items-center max-w-6xl mx-auto">
-                <button class = 'transition-colors focus:ring-2 focus:ring-slate-200 -ml-2 p-1 rounded text-slate-500 hover:bg-sky-500 hover:text-slate-100' >
-                    
+                <button class = 'transition-colors focus:ring-2 focus:ring-slate-200 -ml-2 p-1 rounded text-slate-500 hover:bg-sky-500 hover:text-slate-100 md:hidden' >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
@@ -16,14 +16,14 @@ export const Navbar = () => {
                         </svg>
                     </a>
                     <div class = "space-x-8 ml-8 hidden md:flex">
-                        <a href="#" class ="px-3 py-2 text-sky-500">Home</a>
-                        <a href="#" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">About</a>
-                        <a href="#" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Proyects</a>
-                        <a href="#" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Contact</a>
+                        <Link href="/" class ="px-3 py-2 text-sky-500">Home</Link>
+                        <Link href="/jobs" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Jobs</Link>
+                        <Link href="/projects" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Proyects</Link>
+                        <Link href="/contact" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Contact</Link>
                     </div>
                 </div>
                 <div class= "flex ">
-                    <button class = 'transition-colors focus:ring-2 focus:ring-slate-200 rounded-full text-slate-500 hover:text-sky-500 focus:ring-offset-1'>
+                    <button class = 'transition-colors focus:ring-2 focus:ring-slate-200 rounded-full text-slate-500 hover:text-sky-500 focus:ring-offset-1 '>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
                         </svg>
