@@ -1,8 +1,10 @@
+import RenderCardJobs from "../../components/jobs/rendCardJobs"
 
 export default function Jobs () {
     return (
-        <>
-            <h1>Hola Aca vemos los Jobs</h1>
+        < >
+            <RenderCardJobs/>
+            
         </>
     )
 }

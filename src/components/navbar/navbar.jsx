@@ -19,7 +19,8 @@ export const Navbar = () => {
                         <Link href="/" class ="px-3 py-2 text-sky-500">Home</Link>
                         <Link href="/jobs" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Jobs</Link>
                         <Link href="/projects" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Proyects</Link>
-                        <Link href="/contact" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Contact</Link>
+                        <Link href="/studies" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Studies</Link>
+                        <Link href="/contact" class ="px-3 py-2 text-white font-bold rounded-lg bg-sky-400 hover:bg-sky-600 transition-colors">Contact</Link>
                     </div>
                 </div>
                 <div class= "flex ">
@@ -28,10 +29,10 @@ export const Navbar = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
                         </svg>
                     </button>
-                    <button class = 'transition-colors ml-4 focus:ring-2 focus:ring-slate-200 rounded-full text-slate-500 hover:text-sky-500 focus:ring-offset-1'>
+                    {/* <button class = 'transition-colors ml-4 focus:ring-2 focus:ring-slate-200 rounded-full text-slate-500 hover:text-sky-500 focus:ring-offset-1'>
                         <img class = "h-10 w-10 rounded-full" 
                             src="https://ui-avatars.com/api?name=Ezequiel+Alonso" alt = "Ezequiel Alonso" />
-                    </button>
+                    </button> */}
                 </div>
             </div>
             <div class = "space-y-1 pb-3 pt-2 border-t md:hidden">
