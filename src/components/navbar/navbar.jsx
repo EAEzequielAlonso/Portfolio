@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const Navbar = () => {
-    return (
+    return ( 
         <nav className = "bg-white px-6 shadow mb-3">
             <div className = "flex h-16 justify-between items-center max-w-6xl mx-auto">
                 <button class = 'transition-colors focus:ring-2 focus:ring-slate-200 -ml-2 p-1 rounded text-slate-500 hover:bg-sky-500 hover:text-slate-100 md:hidden' >
@@ -21,6 +21,7 @@ export const Navbar = () => {
                         <Link href="/projects" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Proyects</Link>
                         <Link href="/studies" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Studies</Link>
                         <Link href="/contact" class ="px-3 py-2 text-white font-bold rounded-lg bg-sky-400 hover:bg-sky-600 transition-colors">Contact</Link>
+                        <Link href="/pruebas" class ="px-3 py-2 text-slate-600 hover:text-sky-500 transition-colors">Pruebas</Link>
                     </div>
                 </div>
                 <div class= "flex ">
